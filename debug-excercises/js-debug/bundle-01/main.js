@@ -15,6 +15,7 @@ for (let i = 0; i > 5; i++) {
     console.log(i);
 }
 
+// Questo è un ciclo for che dobrebbe stampare i numeri da 1 a 5, ma c'è un errore, ovvero il simbolo i > 5, dovrebbe essere <, altrimenti non stamperà nulla.
 
 // ESERCIZIO 2
 function addIfEven(num) {
@@ -24,6 +25,7 @@ function addIfEven(num) {
     return num;
 }
 
+// E' una funzione che dice che se il numero è pari, tocca aggiungere +5, ma non funziona perchè ci vorrebbe === e non solo =.
 
 // ESERCIZIO 3
 function loopToFive() {
@@ -32,6 +34,7 @@ function loopToFive() {
     }
 }
 
+// Funzione che dovrebbe stampare i numeri da 0 a 4, ma c'è un errore di sintassi, ovvero il " ; " dopo lo 0.
 
 // ESERCIZIO 4 (suggerimento: ci sono 7 errori)
 function displayEvenNumbers() {
@@ -45,3 +48,12 @@ function displayEvenNumbers() {
     }
 }
 displayEvenNumbers(); // dovrebbe restituire [2,4,6,8]
+
+//  Funzione che dovrebbe restituire solo i numeri pari dell'array fornito
+// errore num. 1
+// errore num. 2
+// errore num. 3
+// errore num. 4
+// errore num. 5
+// errore num. 6
+// errore num. 7

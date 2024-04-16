@@ -23,12 +23,16 @@ function checkAge() {
 }
 checkAge();
 
+//  Confronta myAge , per vedere se è inferiore a 18 anni e restituisce un messaggio. la variabile message non viene utilizzata, forse ci sarebbe stato meglio un console log.
+
 // ESERCIZIO 2
 function printColorsNumber() {
     const colors = ['blue', 'red', 'yellow', 'green', 'black'];
     console.log(`Nella mia palette ci sono ${colors.lenght} colori!`);
 }
-printColorsNumber();
+printColorsNumber(); 
+
+// Errore di battitura, c'è scritto lenGHT, invece si scrive lenGTH.
 
 
 // ESERCIZIO 3
@@ -39,6 +43,9 @@ function addNumbers() {
     console.log(`Il risultato finale è ${total}`);
 }
 addNumbers();
+
+// Funzione che chiedere un numero all'utente e successivamente aggiune +12 e restituisce il totale.
+// Dovremmo aggiungere il parseInt per convertire la stringa in un numero, giusto per star sereni. Ma non dovrebbero esserci errori.
 
 
 // ESERCIZIO 4
@@ -60,6 +67,8 @@ function checkAccess() {
 }
 checkAccess();
 
+// E' una funzione che chiede all'utente di inserire il proprio indirizzo email tramite prompt.
+// Controlla se l'indirizzo email inserito è presente nell'array, se c'è, conesente l'accesso.
 
 // ESERCIZIO 5 (suggerimento: c'è un solo errore)
 function checkAccessImproved() {
@@ -88,8 +97,9 @@ function checkAccessImproved() {
         }
     }
     checkAccessImproved();
+}
 
-
+// grantAccess non è un valore booleano(?)
 
 
 
